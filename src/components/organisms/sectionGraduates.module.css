@@ -1,0 +1,75 @@
+.graduates{
+    display: flex;
+    background-color: var(--bg-courss) ;
+}
+
+.infograd{
+    gap: 10em;
+    margin: 10.3rem;
+}
+
+.titlegrad {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: #f1f1f1ff; 
+  font-family: "Michroma", sans-serif;
+  margin-bottom: 1.5rem;
+  line-height: 1.4;
+}
+
+.habilidades {
+  color: var(--ski-blue-1) ; 
+  font-family:"Michroma" ;
+}
+
+
+.parafgrad{
+    margin-top: 4rem;
+    font-size: 1.25em;
+}
+
+.targetgrad {
+  display: flex;
+  flex-direction: row;      
+  justify-content: center;  
+  margin-top: 4rem;
+  align-items: center;    
+  gap: 4rem;                 
+  padding: 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  flex-wrap: nowrap;        
+  overflow-x: auto;          
+}
+
+.cardgrad {
+  min-width: 150px;          
+  background: linear-gradient(135deg, #302e33, #2fb7d8);
+  padding: 2rem;
+  border-radius: 1.25rem;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.cardgrad h2 {
+  font-size: 1.5rem;
+  margin: 1;
+  letter-spacing: 0.5px;
+}
+
+.cardgrad:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  filter: brightness(1.05);
+}
+
+
+.imggradu{
+    width: 40vw;
+    height: auto;
+}
